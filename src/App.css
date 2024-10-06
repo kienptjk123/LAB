@@ -1,0 +1,52 @@
+.product-view__discount-badge {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 60px;
+  height: 60px;
+  padding: 4px 2px 3px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: rgba(255, 212, 36, 1);
+  background-color: currentColor;
+}
+
+.product-view__discount-badge:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  border-width: 0px 31px 10px 30px;
+  border-style: solid;
+  border-color: transparent currentColor transparent currentColor;
+}
+
+.cn8jz {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.cp14x:is(.dark *) {
+  color: rgb(156 163 175 / 0.8);
+}
+
+.c1bco:is(.dark *) {
+  display: none;
+}
+
+.cbm9w {
+  fill: currentColor;
+}
+
+.cukve:hover:is(.dark *) {
+  background-color: rgb(55 65 81 / 0.5);
+}
